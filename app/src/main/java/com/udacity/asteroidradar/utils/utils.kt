@@ -1,8 +1,6 @@
 package com.udacity.asteroidradar.utils
 
 import android.app.Application
-import android.content.ContentValues
-import android.content.Context
 import android.content.Context.CONNECTIVITY_SERVICE
 import android.net.ConnectivityManager
 import android.net.Network

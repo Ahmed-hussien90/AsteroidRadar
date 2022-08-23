@@ -112,6 +112,7 @@ class MainFragment : Fragment() {
     private fun observeImageOfDay() {
         viewModel.imageOfDay.observe(viewLifecycleOwner) { pic ->
             binding.imageTitle.text = pic.title
+            binding.activityMainImageOfTheDay.contentDescription = pic.title
             Picasso.get().load(pic.url).error(android.R.drawable.stat_notify_error)
                 .into(binding.activityMainImageOfTheDay)
         }

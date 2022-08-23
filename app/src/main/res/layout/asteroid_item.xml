@@ -63,7 +63,6 @@
                 android:id="@+id/stateImage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/potentially_hazardous_asteroid_image"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.896"
@@ -72,6 +71,7 @@
                 app:layout_constraintVertical_bias="0.489"
                 statusIcon="@{asteroid.potentiallyHazardous}"
                 tools:srcCompat="@drawable/ic_status_normal" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </layout>
